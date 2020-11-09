@@ -1,0 +1,178 @@
+
+
+.logout {
+    margin-left: -156px;
+}
+
+.search-box {
+    margin-left: 50px;
+}
+
+.search-box-input {
+    width: 500px!important;
+}
+
+.navbar{
+    flex-wrap: wrap;
+}
+
+
+.navbar-nav{
+    margin-left: 80px!important;
+}
+/*.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  overflow-x: hidden;
+    overflow-y: hidden;
+  padding-top: 20px;
+}*/
+
+/*.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}*/
+
+.main {
+    margin-top: 10px;
+  margin-left: 180px; /* Same as the width of the sidenav */
+  /*font-size: 28px;*/ /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+/*
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+*/
+
+@media screen and (min-width: 300px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.main h1, p{
+    margin: 20px;
+}
+
+.main{
+    margin-top: 100px;
+}
+
+
+.page-footer{
+    margin-top: 133px; 
+    margin-bottom: 0px!important;
+
+}
+
+
+
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Detail Page
+/*-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-*/
+.carousel-item img{
+    width: 500px!important;
+    height: 400px!important;
+}
+
+.container-fluid{
+     border: 1px solid #00000024;
+    height: 100%;
+    width: 700px;
+    background-color: white;
+    text-align: center;
+     /*box-shadow: 0px 0px 20px*/
+}
+
+.voting{
+    padding: 30px 0px;
+}
+.voting-count{ 
+text-align: right;
+}
+
+.fb-text{
+    text-align: left;
+}
+.display-4{
+    text-align: left;
+}
+.fb-image img{
+    width: 300px!important;
+    height: 300px!important;
+}
+.dummy-text{
+    padding: 40px 0px;
+}
+
+#vote-button{
+    float: right!important;
+    margin: 0px 20px 40px 20px;
+}
+/**************************************/
+/**********Carousel Button Design******/
+.carousel-control-prev-icon,
+.carousel-control-next-icon,  {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+ /* border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: grey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: darkgray;
+}
+
+.carousel-indicators li {
+    display:block;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;    
+    background-color: gray;
+       
+}
+.carousel-indicators .active:hover {
+    margin: 10px;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
