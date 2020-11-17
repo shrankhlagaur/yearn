@@ -3,38 +3,47 @@
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-<title>Detail PAGE</title>
+<title>VAULTS PAGE</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/file1.css">
    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
+   
 </head>
-
-<body class="detail-page">
-
-   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    
+<body id="vaults-page">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 <!--
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 -->
-  <a class="navbar-brand" href="#">Navbar</a>
+  <i class='text-primary far fa-question-circle' style='font-size: 28px'></i>&nbsp; &nbsp;
+        <a class="navbar-brand" href="#"> yarn.finance</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" id="home" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" id="home" href="#">dashboard <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Latest Projects</a>
+        <a class="nav-link" href="#">vaults</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Best of Month</a>
+        <a class="nav-link" href="#">earn</a>
       </li>
-      <li class="nav-item dropdown">
+        <li class="nav-item">
+        <a class="nav-link" href="#">zap</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">cover</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">stats</a>
+      </li>
+      <!--<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Sort By
         </a>
@@ -43,7 +52,7 @@
           <a class="dropdown-item" href="#">Low to High</a>
           <a class="dropdown-item" href="#">Latest Projects</a>
         </div>
-      </li>
+      </li>-->
         <li>
         <form class="form-inline search-box">
     <input class="form-control mr-sm-2 search-box-input" type="search" placeholder="Search" aria-label="Search">
@@ -85,8 +94,9 @@
 </div>
     </div>
 </div>
-</nav>    
-   
+
+</nav>   
+    
 <!------------------Side Nav------------------>    
     
 <div class="sidenav">
@@ -101,74 +111,26 @@
     <br>
   <a href="#channel4"><i class='fas fa-comment-dots' style='font-size:23px'></i> Channel 4</a>
 </div>
+      
 
-        
 
-<!------------------Main Projects------------------> 
-<div class="main">    
-    <div class="container-fluid">
-
-<div class="voting">
-
-    <aside class="fb-image"> <img src="Images/Facebook%20Image.png" class="rounded float-left" alt="Facebook"></aside>
-
-    <h1 class="display-4">Facebook</h1>
-
+<!------------------Main Projects------------------>     
     
-    <!--
-<article class="fb-text">
-  <h2>Facebook</h2>
-    </article>
--->
-<aside class="fb-text">
-    <i class='fab fa-facebook' style='font-size:23px'></i>
-    <a href="#">Facebook Pvt.</a>
-    </aside>
-    <article >
-    <p class="voting-count"><i class='	fab fa-vuejs' style='font-size:24px'></i><small class="text-muted"> 983 Votes</small></p>
-    </article>
-  <p class="fb-text" style="font-weight: bold"><small class="text-muted"> Lorem Ipsum - Is Simply-Dummy </small></p>
-    <p class="fb-text" style="font-weight: bold">
-        <img src="images/icons/bookmark.svg">
-<!--        <i class='far fa-bookmark' style='font-size:23px'></i>-->
-        Lorem Ipsum is</p>
-    <a href="#" class="btn btn-primary" id="vote-button">Vote This Project</a>
-    </div>
-  
-    <!--<div class="row">
-    <div class="col-md-2">
-      <div class="thumbnail">
-        <a href="#" target="_blank">
-          <img src="Images/fb%20content1.png" alt="Lights" style="width:100%">
-          <div class="caption">
-            <p></p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="thumbnail">
-        <a href="#" target="_blank">
-          <img src="Images/fb%20content2.png" alt="Nature" style="width:100%">
-          <div class="caption">
-            <p></p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="thumbnail">
-        <a href="#" target="_blank">
-          <img src="Images/fb%20content3.png" alt="Fjords" style="width:100%">
-          <div class="caption">
-            <p></p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="main">
+<div class="container" style="padding-top: 100px;">
+    
+<div class="card mb-3" style="max-width: 60rem;">
+  <!--<div class="card-header">    </div>-->
+  <div class="card-body">
+       <aside><img src="Images/Facebook%20Image.png" class="img-fluid" width="300px;" height="300px;"></aside>
+    <h1 class="card-title">FACEBOOK</h1>
+      <article><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></article>
+      <br>
+      <p class="article" style="font-weight: 500;"> 900 votes</p>
+        <i class="fab fa-facebook"></i>
+      
+       <br>
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -176,13 +138,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="img-fluid" src="Images/fb%20content1.png" alt="First slide">
+      <img class="d-block w-100" src="Images/fb%20content1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="img-fluid" src="Images/fb%20content2.png" alt="Second slide">
+      <img class="d-block w-100" src="Images/fb%20content2.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="img-fluid" src="Images/fb%20content3.png" alt="Third slide">
+      <img class="d-block w-100" src="Images/fb%20content3.png" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -193,70 +155,74 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div> 
+      <hr>
+   <h5 class="card-title text-secondary" style="padding-top: 30px;">Danger card title</h5>
+      <br>
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic type setting</p>   
+      <br>
+      
+<!-------------------About this Project-------------->
+<h5 class="card-title text-secondary">About This Project</h5>
+      <br>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic type setting</p>
+<br>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic type setting</p>
+      
+<p>There are many variations of passages of Lorem Ipsum available,</p>
+<ul>
+  <li>Lorem Ipsum is simply dummy text of the </li>
+  <li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+  <li>Lorem Ipsum is simply dummy text of the </li>
+</ul> 
+      <hr>
+      <br>
+<h5 class="card-text text-secondary">Platform Type</h5> 
+<p>Lorem Ipsum, Lorem Ipsum, Lorem Ipsum</p> 
+      
+</div>      
+</div>
+    
+    
+    
+
+<div class="card mb-3" style="max-width: 60rem;">
+  <div class="card-header text-secondary"><h2>About This Project</h2></div>
+  <div class="card-body">
+      <aside><img src="Images/fbimages2.png" class="img-fluid"></aside>
+    <article><h5 class="card-title text-secondary">LoremIpsum</h5>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+        <br>
+        <br>
+ <button type="button" class="btn btn-secondary" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">Contact us </button>       
+        </article>
+  </div>
+</div>
+    
+    
+</div>
 </div>
 
-
-        <div class="dummy-text">
-        <dl class="row">
-  <dt class="col-sm-3">Description lists</dt>
-  <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
-
-  <dt class="col-sm-3">Euismod</dt>
-  <dd class="col-sm-9">
-    <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-    <p>Donec id elit non mi porta gravida at eget metus.</p>
-  </dd>
-
-  <dt class="col-sm-3">Malesuada porta</dt>
-  <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
-
-  <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-  <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
-
-  <!--<dd class="col-sm-9">
-    <dl class="row">
-      <dt class="col-sm-3">Nested definition list</dt>
-      <dd class="col-sm-9">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
-    </dl>
-  </dd>-->
-</dl>
-  </div>      
-<!--
-<p class="dummy-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-    <p class="dummy-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
--->
-
-    </div>
+ 
     
- </div>   
+    
+    
+    
     
 
     
- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    
+    
+
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+     <script src="js/yearn.js"></script> 
 </body>
 
-</html>   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+</html>

@@ -20,7 +20,9 @@
 .navbar-nav{
     margin-left: 80px!important;
 }
-/*.sidenav {
+
+
+.sidenav {
   height: 100%;
   width: 160px;
   position: fixed;
@@ -30,10 +32,10 @@
   background-color: #343a40;
   overflow-x: hidden;
     overflow-y: hidden;
-  padding-top: 20px;
-}*/
+  padding-top: 100px!important;
+}
 
-/*.sidenav a {
+.sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -43,10 +45,40 @@
 
 .sidenav a:hover {
   color: #f1f1f1;
-}*/
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
 
 .main {
-    margin-top: 10px;
+    margin-top: 100px;
   margin-left: 180px; /* Same as the width of the sidenav */
   /*font-size: 28px;*/ /* Increased text to enable scrolling */
   padding: 0px 10px;
@@ -65,106 +97,52 @@
   .sidenav a {font-size: 18px;}
 }
 
-.main h1, p{
-    margin: 20px;
-}
-
-.main{
-    margin-top: 100px;
-}
 
 
-.page-footer{
-    margin-top: 133px; 
-    margin-bottom: 0px!important;
-
-}
 
 
 
 
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-/* Detail Page
+/* Vaults Page
 /*-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-*/
-.carousel-item img{
-    width: 500px!important;
-    height: 400px!important;
-}
 
-.container-fluid{
+/*.container-fluid{
      border: 1px solid #00000024;
     height: 100%;
-    width: 700px;
+    width: 900px;
     background-color: white;
     text-align: center;
-     /*box-shadow: 0px 0px 20px*/
+     box-shadow: 0px 0px 20px
+}*/
+
+/*.card-header{
+    text-align: center;
 }
 
-.voting{
-    padding: 30px 0px;
+.card-body{
+     text-align: center;
+}*/
+aside{
+    float: left!important;
 }
-.voting-count{ 
-text-align: right;
-}
-
-.fb-text{
-    text-align: left;
-}
-.display-4{
-    text-align: left;
-}
-.fb-image img{
-    width: 300px!important;
-    height: 300px!important;
-}
-.dummy-text{
-    padding: 40px 0px;
-}
-
-#vote-button{
+.fab{
     float: right!important;
-    margin: 0px 20px 40px 20px;
+    font-size:36px;
 }
-/**************************************/
-/**********Carousel Button Design******/
-.carousel-control-prev-icon,
-.carousel-control-next-icon,  {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
- /* border: 1px solid black;*/
-  background-image: none;
+.article{
+    float: right!important;
+}
+.checked {
+  color: orange;
+}
+.carousel-item{
+    
+
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: grey;
-}
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: darkgray;
-}
-
-.carousel-indicators li {
-    display:block;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: none;    
-    background-color: gray;
-       
-}
-.carousel-indicators .active:hover {
-    margin: 10px;
-    background-color: lightgray;
-}
 
 
 

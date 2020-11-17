@@ -5,7 +5,7 @@
   outline: black;
   background-size: 100%, 100%;
   border-radius: 50%;
- /* border: 1px solid black;*/
+  border: 1px solid black;
   background-image: none;
 }
 
@@ -111,4 +111,13 @@ body {
 .page-footer{
     margin-top: 50px; 
     margin-bottom: 0px!important;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.list-group{
+    padding-right: 90px!important;
+    text-decoration: none!important;
 }
