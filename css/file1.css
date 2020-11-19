@@ -137,11 +137,25 @@ aside{
 .checked {
   color: orange;
 }
-.carousel-item{
-    
-
+.chat{
+    list-style-type: circle;
 }
-
+#paidchatb{
+     margin: 0;
+  position: absolute;
+  left: 60%;
+    bottom: 1%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#freechatb{
+    margin: 0;
+  position: absolute;
+  right: 60%;
+    bottom: 1%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 
 
