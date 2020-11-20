@@ -42,6 +42,11 @@
   color: #818181;
   display: block;
 }
+.sidenav button{
+    text-decoration: none;
+    color: #818181;
+    padding: 0px 8px 6px 8px;
+}
 
 .sidenav a:hover {
   color: #f1f1f1;
