@@ -1,4 +1,6 @@
-
+.btn {
+  cursor: pointer;
+}
 
 .logout {
     margin-left: -156px;
@@ -110,42 +112,24 @@ body {
 
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-/* Vaults Page
+/* Projects Page
 /*-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-*/
 
-/*.container-fluid{
-     border: 1px solid #00000024;
-    height: 100%;
-    width: 900px;
-    background-color: white;
-    text-align: center;
-     box-shadow: 0px 0px 20px
-}*/
-
-/*.card-header{
-    text-align: center;
-}
-
-.card-body{
-     text-align: center;
-}*/
-
-
-
-aside{
+aside {
     float: left!important;
 }
-.fab{
-    float: right!important;
-    font-size:36px;
+.fa {
+    /* float: right!important; */
+    font-size: 10px;
+    margin: 1px;
 }
-.article{
+.article {
     float: right!important;
 }
 .checked {
   color: orange;
 }
-.chat{
+.chat {
     list-style-type: circle;
 }
 #paidchatb{
@@ -165,14 +149,94 @@ aside{
   transform: translate(-50%, -50%);
 }
 
+/**** Reviews *****/
+
+.R-heading {
+  font-size: 25px;
+  margin-right: 25px;
+  box-sizing: border-box;
+
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.row {
+  padding: 10px;
+}
+#re
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height:  18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+/**** Pricing*****/
+.price {
+list-style: none;
+}
+.Ppricing {
+float: right;
+font-size: 50px;
+}
 
 
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Form Page
+/*-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-*/
 
-
-
-
-
-
-
-
+.tweet{
+  font-size: larger;
+}
+ 
 
