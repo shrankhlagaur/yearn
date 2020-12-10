@@ -239,4 +239,20 @@ font-size: 50px;
   font-size: larger;
 }
  
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Overview Page
+/*-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-*/
 
+textarea {
+resize: none;
+padding: 5px;
+}
+
+#scope {
+float: left;
+}
+
+/* Toggle Switch */
+.custom-control {
+  float: right;
+}
